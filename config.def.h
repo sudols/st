@@ -12,7 +12,7 @@ static char *font2[] = {
 	"Hack Nerd Font:pixelsize=11:antialias=true:autohint=true",
 };
 
-static int borderpx = 2;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -147,7 +147,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 258;
+unsigned int defaultfg = 256;
 unsigned int defaultbg = 259;
 unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
